@@ -16,7 +16,7 @@ import com.jme3.network.Message;
  * @author kg
  */
 public interface IFieldGameMessage 
-extends Comparable<IFieldGameMessage> {
+extends Comparable<IFieldGameMessage>, Message{
     
     public static final Comparator<IFieldGameMessage> Compare = 
     new Comparator<IFieldGameMessage>() {
